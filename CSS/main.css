@@ -1,0 +1,112 @@
+/*
+hex value ex.
+You're going to want to look at a hex decimal site for CSS, grab it then just paste it in, very simple
+https://coolors.co/262322-63372c-c97d60-ffbcb5-f2e5d7
+
+#three {
+    color: #0000ff;
+    background: #f15025;
+}
+
+*/
+
+
+body {
+    font-family: monospace; 
+    line-height: 1.5em;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color:cadetblue;
+        font-size: 20px;
+        width: 200px;
+        height: 300px;
+        background: blue;
+}
+
+
+
+#title {
+    color: blueviolet;
+    background: black;
+}
+
+#subheading {
+    color: greenyellow;
+    background: turquoise;
+}
+
+#four {
+    color: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.1)
+}
+
+/* 
+Anything with a . to begin is a div classification 
+*/
+
+.red {
+    color:red;
+}
+
+.green {
+    color:green;
+}
+
+
+
+.outer{
+    width: 500px;
+    height: 500px;
+    background: blue;
+}
+
+.inner{
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+
+
+div {
+    color: blueviolet;
+    background: black;
+    border: 3px solid gray;
+}
+
+
+
+span {
+    text-transform: uppercase;
+}
+
+
+/*
+default: em is based on default pixel setting of your browser - thus 2em = 2x your current default font value in browser setting
+setting parent for em: will respond to inline CSS class
+*/
+
+
+/*
+vh - height - percent of the screen
+vw - width - percent of the screen
+*/
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    color: aqua;
+    background: red;
+}
+
+.highmark{
+    width: 100vw;
+    height: 100vh;
+    color: aqua;
+    background: violet;
+}
